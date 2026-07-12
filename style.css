@@ -1,5 +1,20 @@
 body{
-    background-color: rgb(145, 181, 216);
-    text-decoration-color: black;
+    text-decoration-color: rgb(3, 3, 3);
     text-align: center;
+    text-shadow: 2px 2px 8px rgb(247, 243, 243);
+    background-image: url("img/hack club.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: rgba(8, 8, 8, 0.644);
+}
+a{
+    color: #48c3cce0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+a:hover{
+    color: #e70303;
 }
