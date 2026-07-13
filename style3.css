@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+}
+body{
+    text-decoration-color: rgb(3, 3, 3);
+    text-align: center;
+    text-shadow: 2px 2px 8px rgb(247, 243, 243);
+
+    background-image: url("img/hack club.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: rgba(8, 8, 8, 0.644);
+
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+nav{
+    width: 100vw;
+}
+ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+li{
+    list-style-type: none;
+    height: 85px;
+    width: 120px;
+    overflow: hidden;
+}
+li>span{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+li>span:nth-child(1){
+    color: #1abc9c;
+    background-color: rgba(255, 255, 255,0.05);
+    font-size: 32px;
+}
+li>span:nth-child(2){
+    color: #1abc9c;
+}
+li:hover span{
+    transform: translateY(-100%);
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family:"poppins", sans-serif;
+    font-size: 18px;
+}
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+    width: 200px;
+}
+.wrapper .button .icon{
+    display: inline-block;
+     height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    line-height: 60px;
+transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1):hover .icon{
+    background: #b49ea5;
+}
+
+.wrapper .button:nth-child(2):hover .icon{
+    background: #426782;
+}
+
+.wrapper .button:nth-child(4):hover .icon{
+    background: #1da1f2;
+}
+
+.wrapper .button:nth-child(3):hover .icon{
+    background: #ff0000;
+}
+.wrapper .button .icon i{
+    font-size: 25px;
+line-height: 60px;
+transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+    color: #fff;
+}
+
+.wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover span{
+   color : #160506e8;
+}
+
+.wrapper .button:nth-child(2):hover span{
+    color: #426782;
+}
+
+.wrapper .button:nth-child(4):hover span{
+    color: #1da1f2;
+}
+
+.wrapper .button:nth-child(3):hover span{
+    color: #ff0000;
+}
