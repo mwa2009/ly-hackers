@@ -65,7 +65,7 @@ li:hover span{
     transform: translateY(-100%);
 }
 a{
-    color: white;
+    color: rgb(53, 168, 235);
     text-decoration: none;
     font-family:"poppins", sans-serif;
     font-size: 18px;
@@ -96,7 +96,7 @@ transition: all 0.3s ease-out;
 }
 
 .wrapper .button:nth-child(1):hover .icon{
-    background: #b49ea5;
+    background: #1189c0;
 }
 
 .wrapper .button:nth-child(2):hover .icon{
@@ -116,7 +116,7 @@ line-height: 60px;
 transition: all 0.3s ease-out;
 }
 .wrapper .button:hover .icon i{
-    color: #fff;
+    color: #ce1d1d;
 }
 
 .wrapper .button span{
